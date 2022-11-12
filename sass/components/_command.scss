@@ -64,14 +64,17 @@
     background-color: $focus-color; 
 }
 }
- .command__net-icon {
+
 .command__net-link {
     &:hover,
     &:focus { 
+    .command__net-icon
+    {
     fill: currentColor;
     }
 }
- }
+}
+
 .command__net-icon {
     fill: #afb1b8;
 

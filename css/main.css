@@ -514,8 +514,11 @@ ul {
   color: #2196f3;
 }
 
-.site-nav__link:hover::after .site-nav,
-.site-nav__link--current .site-nav {
+.site-nav .site-nav__link:hover::after {
+  color: #2196f3;
+}
+
+.site-nav .site-nav__link--current {
   color: #2196f3;
 }
 
@@ -944,7 +947,7 @@ img {
   background-color: #2196f3;
 }
 
-.command__net-icon .command__net-link:hover, .command__net-icon .command__net-link:focus {
+.command__net-link:hover .command__net-icon, .command__net-link:focus .command__net-icon {
   fill: currentColor;
 }
 

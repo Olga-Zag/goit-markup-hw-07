@@ -43,9 +43,13 @@
     color: $focus-color;
 }
 }
-.site-nav__link:hover::after,
+.site-nav__link:hover::after{
+        .site-nav & {
+            color: $focus-color;
+        }
+    }
 .site-nav__link--current {
-    .site-nav {
+    .site-nav &{
     color: $focus-color;
 }
 }
